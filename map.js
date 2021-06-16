@@ -71,7 +71,7 @@ require([
 
   function SetMap(mapConfiguration) {
     let map = new Map({
-      basemap: "satellite"
+      basemap: "topo"
     });
 
     let view = new MapView({
