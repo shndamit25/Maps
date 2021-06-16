@@ -71,7 +71,7 @@ require([
 
   function SetMap(mapConfiguration) {
     let map = new Map({
-      basemap: "arcgis-imagery-standard"
+      basemap: "gray"
     });
 
     let view = new MapView({
