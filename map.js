@@ -81,14 +81,14 @@ require([
       zoom: mapConfiguration.zoom
     });
 
-    let csvLayer = new CSVLayer({
+/*    let csvLayer = new CSVLayer({
       url: mapConfiguration.csvUrl,
       labelingInfo: [locationLabels],
       renderer: iconRenderer,
       popupTemplate: popupTemplate
     });
 
-    map.add(csvLayer);
+    map.add(csvLayer);*/
 
   }
 
