@@ -71,7 +71,7 @@ require([
 
   function SetMap(mapConfiguration) {
     let map = new Map({
-      basemap: "streets"
+      basemap: "satellite"
     });
 
     let view = new MapView({
