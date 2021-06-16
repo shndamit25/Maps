@@ -71,7 +71,7 @@ require([
 
   function SetMap(mapConfiguration) {
     let map = new Map({
-      basemap: "topo-vector"
+      basemap: "streets"
     });
 
     let view = new MapView({
