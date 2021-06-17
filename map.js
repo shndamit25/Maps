@@ -35,7 +35,7 @@ require([
         weight: "bold"
       }
     },
-    labelPlacement: "center-center",
+    labelPlacement: "bottom-center",
     labelExpressionInfo: {
       expression: "$feature.place"
     }
