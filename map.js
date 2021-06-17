@@ -66,7 +66,7 @@ require([
 
   function SetMap(mapConfiguration) {
     let map = new Map({
-      basemap: "topo"
+      basemap: "streets"
     });
 
     let view = new MapView({
