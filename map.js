@@ -13,7 +13,7 @@ require([
         symbol: {
           type: "simple-marker",
 
-          color: "#2a78ad", //change icon color
+          color: "#000000", //change icon color
           size: 30,
           xoffset: 0,
           yoffset: 15,
