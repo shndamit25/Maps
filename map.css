@@ -1,0 +1,58 @@
+html,
+body,
+#view {
+  padding: 0;
+  margin: 0;
+  height: 95%;
+  width: 100%;
+}
+
+.esri-attribution__sources,
+.esri-interactive,
+.esri-attribution__powered-by {
+  display: none;
+}
+
+.general_btn {
+  text-align: center;
+  border-radius: 6px;
+  background-color: #2a78ad;
+  color: #fff;
+  border: 0;
+  letter-spacing: 1.58px;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  padding: 0;
+  font-weight: 600;
+  line-height: 36px;
+  width: 132px;
+  height: 36px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.text-align-center{
+  text-align: center!important;
+}
+
+.general_text{
+  font-weight: 400;
+  font-family: "Source Sans Pro";
+  letter-spacing: 0.72px;
+  color: #131516;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.heading_text {
+  color: #253e60;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.83px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
