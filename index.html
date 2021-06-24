@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.16/esri/themes/light/main.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://js.arcgis.com/4.16/"></script>
+  <script src="map.js"></script>
+</head>
+
+<body>
+  <h2>Click on the buttons to see user created and predefined maps</h2>
+  <div style="margin: 30px;">
+    <button id="WorldUserCreated" class="general_btn">User World</button>
+    <button id="USAUserCreated" class="general_btn">User USA</button>
+    <button id="WorldBaseMap" class="general_btn">Base World</button>
+    <button id="USABaseMap" class="general_btn">Base USA</button>
+  </div>
+  <h2 id="Note"></h2>
+  <div id="Loading" style="font-size: 18px;" class="text-align-center">
+    <i class="fa fa-cog fa-spin"></i>&nbsp;Loading...
+  </div>
+  <h2 style="font-family: Source Sans Pro;" id="BrowserInfo"></h2>
+  <div id="view"></div>
+</body>
+
+</html>
